@@ -1,3 +1,12 @@
+# Forked From Automattic to apply a temp fix
+Official version at time of writing does not work with
+using Redis Unix Sockets, fixed by changes two lines
+
+The quickfix stops you from supplying options to node_redis
+
+
+
+
 # Kue
 
 [![Build Status](https://travis-ci.org/Automattic/kue.svg?branch=master&style=flat)](https://travis-ci.org/Automattic/kue)
